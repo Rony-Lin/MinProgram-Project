@@ -1,0 +1,29 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<!-- 封装轮播图子组件 -->
+<scroll-view scroll-y 
+             class="content"
+             bindscrolltolower="loadMore"
+             scroll-with-animation="true"
+             scroll-top="{{topPosition}}"
+             bindscroll="scrollPosition">
+ <w-swiper list="{{banners}}"></w-swiper>
+
+<!-- 推荐数据展示 -->
+<w-recommend recommend="{{recommends}}"  bind:imgLoad="imgLoad"></w-recommend>
+
+<!-- 流行数据展示 -->
+<w-popular></w-popular>
+
+<!-- 导航栏 -->
+<w-tab-bar headLine="{{titles}}"
+           bind:itemClick="handleTabClick" 
+           id="tab-controll"
+           class="{{isTabFixed?'fixed':''}}"/>
+<w-tab-bar headLine="{{titles}}" wx:if="{{isTabFixed}}" />
+<!-- 商品数据展示 -->
+<w-goods goods="{{goods[currentType].list}}"/>
+
+<!-- 回顶 -->
+<w-back-top wx:if="{{isShowBackTop}}" />
+</scroll-view>

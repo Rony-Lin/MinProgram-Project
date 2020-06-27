@@ -1,0 +1,130 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.0",
+	"appid": "wx51b08a880eabbc35",
+	"projectname": "minProgram-1",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/home/home",
+					"pathName": "pages/cart/cart",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/image/image",
+					"pathName": "pages/image/image",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/input/input",
+					"pathName": "pages/input/input",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/scroll/scroll",
+					"pathName": "pages/scroll/scroll",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/mustache/mustache",
+					"pathName": "pages/mustache/mustache",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/wx/wx",
+					"pathName": "pages/wx/wx",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/cpn/cpn",
+					"pathName": "pages/cpn/cpn",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/request/request",
+					"pathName": "pages/request/request",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "pages/showtoast/showtoast",
+					"pathName": "pages/showtoast/showtoast",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/detail/detail",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

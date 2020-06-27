@@ -1,0 +1,5 @@
+/* pages/home/childCpns/w-popular/w-popular.wxss */
+/* 默认图片高度为其自身高度，设置100%，可以解决不同型号手机图片适配问题 */
+.popular image{
+  width: 100%;
+}
